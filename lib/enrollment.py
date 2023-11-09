@@ -19,8 +19,8 @@ class Course:
     def __init__(self, title):
 
         self.title = title
-        self._enrollments = []
-
+        self._enrollments = [] 
+ 
     def add_enrollment(self, enrollment):
         if isinstance(enrollment, Enrollment):
             self._enrollments.append(enrollment)
